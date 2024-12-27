@@ -16,8 +16,8 @@ def get_gemini_response(question):
     response = model.generate_content(question)
     return response.text
 
-st.set_page_config(page_title='Chatbot by vikas')
-st.header('Chatbot by vikas')
+st.set_page_config(page_title='Chatbot for Q%A')
+st.header('Chatbot for Q@A')
 
 input = st.text_input("Input :" , key="input")
 
